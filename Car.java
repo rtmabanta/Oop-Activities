@@ -7,7 +7,7 @@ public class Car extends Vehicle{
 	
 	public Car(String type, String name, String color, int speed, int price, String tireType) { //Create constructor for Toyota_Vios
 		super(type, name, color, speed, price); // Call the constructor of the superclass Vehicle
-		this.tireType = tireType; //setting the parameters for tireType
+		this.tireType = tireType; //this is a setter method for tireType
 	}
 	
 	String getTireType() { //create getter method for tireType
